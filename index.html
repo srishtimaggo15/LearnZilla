@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Era of Working</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Header  -->
+    <div class="header">
+
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <i class="fa fa-align-justify" aria-hidden="true"></i>
+                </a>     
+            </span>
+            
+            <div class="logo">
+                <img src="./images/LearnZilla Logo.png" alt="LearnZilla">
+            </div>
+
+            <ul class="navbar-nav" id="navbar">
+                <li><a href="#learn">Learn</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#certi">Certification</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" 
+                onclick="closeSlideMenu()">&times;</a>
+            <a href="#learn">Learn</a>
+            <a href="#team">Team</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#certi">Certification </a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+
+    <!-- Header -->
+    <section id="home" style="background-image: url(images/homepg.jpg);">
+        <h1>Start something that matters</h1><br>
+        <p>Stop wasting valuable time with projects that just isn't you.</p><br>
+          
+        <button class="button" onclick="window.location.href='#learn'">Learn more and start today</button>
+
+        <!-- Social Icons -->
+        <div class="social">
+          <i class="fa fa-facebook-official"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-snapchat"></i>
+          <i class="fa fa-pinterest-p"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+
+
+    <!-- Learn -->
+    <section id="learn">
+        <h1>What can you learn with us?</h1>
+        <div class="learn-row">
+            <div class="learn-col">
+                <img src="./images/web.png">
+                <button class= "button" style="background-color: aqua;" onclick="window.location.href='#Web'"></button>
+                <a href="webd.html" style="box-sizing: border-box; border: 3px solid black; background-color: #00ffff;">Web dev </a>
+                <a href="android.html" style="box-sizing: border-box; border: 3px solid black; background-color: #808080;" > Android dev </a>
+                <p>Bringing your imagination to reality is what development is. 
+                    In this course, you will taught web and android development, 
+                    whatever you choose, from scratch to advance.</p>
+            </div>
+            <div class="learn-col">
+                <img src="./images/python.jpg">
+                <button class= "button" style="background-color: aqua;" onclick="window.location.href='#basic'"></button>
+                <a href="c.html" style="box-sizing: border-box; border: 3px solid black; background-color: #00ffff;"> C</a>
+                <a href="python.html" style="box-sizing: border-box; border: 3px solid black; background-color: #ffff00;">Python</a>
+                <a href="java.html" style="box-sizing: border-box; border: 3px solid black; background-color: #808080;"> Java</a>
+                <p>Strong bricks makes a building strong. 
+                    Here you will learn your favourite
+                     programming language from solving basic to advanced coding problems.</p>
+            </div>
+            <div class="learn-col">
+                <img src="./images/ai.jpg">
+                <button class= "button" style="background-color: aqua;" onclick="window.location.href='#ai'"></button>
+                <a href="Ai.html" style="box-sizing: border-box; border: 3px solid black; background-color: #00ffff;">Artificial intelligence</a>
+                <a href="ML.html" style="box-sizing: border-box; border: 3px solid black; background-color: #808080;"> Machine Learning</a>
+                <p>Machine learning (ML) is an application of Artificial Intelligence (AI) 
+                    generating systems that can learn and improve without being programmed.
+                    Learning how these things actually work is the main aim of this course.</p>
+            </div>
+            <div class="learn-col">
+                <img src="./images/blockchain.jpg">
+                <button class= "button" style="background-color: aqua;" onclick="window.location.href='#ai'"></button>
+                <a href="blockchain.html" style="box-sizing: border-box; border: 3px solid black; background-color: #ffff00;"> Block Chain</a>
+                <p>The words “block” and “chain” means digital information (the “block”) 
+                    stored in a public database (the “chain”). Thus, learning this 
+                    impressive technology from basics is an interesting part to do so.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- learn by enjoying -->
+    <section id="enjoy">
+        <div class="container enjoy-row">
+            <div class="enjoy-left-col">
+                <div class="enjoy-text">
+                    <h1>Learn By Enjoying!</h1>
+
+                    <p>
+                        We innovate the best in us to bring the best in you!
+                    </p>
+
+                    <button class="button" onclick="window.location.href='#blogs'">View our Work</button>
+                </div>
+            </div>
+            
+            <div class="enjoy-right-col">
+                <img src="./images/img3.jpg">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team -->
+    <section id="team">
+        <h1>Our Team</h1>
+        <h3><em>The ones who run the company</em></h3><br><br>
+        <div class="team-row">
+            <div class="card">
+                <img src="./images/harshita.jpg" alt="Harshita Garg">
+                <h3>Harshita Garg</h3>
+                <h3>CEO & Founder</h3>
+                <p>I am a front-end web developer content writer. I writes the technical as 
+                    well as the general information on the website and handles 
+                    front-end part of the website to make it fully presentable.</p>
+                    <button class="button" onclick="window.location.href='mailto: harshitagarg@gmail.com'">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>Contact
+                    </button>
+            </div>
+
+            <div class="card">
+                <img src="./images/sanchi.jpg" alt="Sanchi Bansal">
+                <h3>Sanchi Bansal</h3>
+                <h3>Web Developer</h3>
+                <p>I am a front-end web developer and likes to contribute to
+                     open source projects. I manages the designing and 
+                     presentation part of this website.</p>    
+                <button class="button" onclick="window.location.href='mailto: sanchibansal@gmail.com'">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>Contact
+                </button>  
+            </div>
+
+            <div class="card">
+                <img src="./images/srishti.jpg" alt="Srishti Maggo">
+                <h3>Srishti Maggo</h3>
+                <h3>Web Designer</h3>
+                <p>I am a blogger currently writes blog for lifestyle and 
+                    also i am an intern working in intellify as a super 
+                    matter expert. I am working as a front end developer 
+                    as well  for this website.</p>    
+                <button class="button" onclick="window.location.href='mailto: srishtimaggo@gmail.com'">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> Contact
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bar -->
+    <section id="bar">
+        <div class="bar-row">
+            <div class="bar-col">
+                <p>0 <br>Partners</p>
+            </div>
+            <div class="bar-col">
+                <p>0 <br>Projects Done</p>
+            </div>
+            <div class="bar-col">
+                <p>0 <br>Happy Clients</p>
+            </div>
+            <div class="bar-col">
+                <p>0 <br>Meetings</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Blogs -->
+    <section id="blogs">
+        <h1>Our Blogs</h1>
+        <div class="blogs-row">
+            <div class="blogs-column">
+              <img src="./images/ai.jpg">
+            </div>
+            <div class="blogs-column">
+                <img src="./images/android.jpg">
+            </div>
+            <div class="blogs-column">
+                <img src="./images/blockchain.jpg">
+            </div>
+            <div class="blogs-column">
+                <img src="./images/web.png">
+            </div>
+           <button class="button" ></button>
+           <a href="blogs.html"> Check Our Blogs</a>
+        </div>
+        <a href="https://youtu.be/Keusza5Wujk">Youtube Course for HTML</a>
+        <a href="https://youtu.be/Keusza5Wujk">Youtube Course for CSS</a>
+
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container skills-row">
+            <div class="skills-left-col">
+                <div class="skills-text">
+                    <h1>Our Skills</h1>
+
+                    <p>
+                        We work in a team of three to serve you the best.<br>
+                        We have front-end skills, content writing and blogging 
+                        skills and experience<br><br>
+                        We are developing other skills as well to make this 
+                        site fully working and engaging for every type of user 
+                        who wan to learn new skills.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="skills-right-col">
+                <div class="box">
+                    <p>Web Development</p>
+                    <div class="outer-box">
+                        <div class="inner-box wdev">70%</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <p>Web Design</p>
+                    <div class="outer-box">
+                        <div class="inner-box design">55%</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <p>Blogging</p>
+                    <div class="outer-box">
+                        <div class="inner-box blogging">65%</div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <p>Content Writing</p>
+                    <div class="outer-box">
+                        <div class="inner-box content">75%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate -->
+    <section id="certi">
+        <h1>Sample Certificate</h1>
+        <img src="./images/LearnZilla Certificate.png" alt="LearnZilla Certificate">
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+
+        <h1>Contact Us</h1>
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    New Delhi, India
+                </p>
+
+                <p><i class="fa fa-phone" aria-hidden="true"></i>
+                    +91-99575585
+                </p>
+
+                <p><i class="fa fa-envelope" aria-hidden="true"></i>
+                    learnzilla2020@mail.com
+                </p>
+            </div>
+
+            <div class="contact-right-col">
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Name" required><br><br>
+                    <input type="email" name="email" id="email" placeholder="Email" required><br><br>
+                    <input type="text" name="message" id="message" placeholder="Message" required><br><br>
+                    <button class="button"><i class="fa fa-paper-plane" aria-hidden="true"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section id="footer">
+        <a href="#home"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+        <br><br>
+        <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020</p>        
+
+        <div class="social">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-snapchat"></i>
+            <i class="fa fa-pinterest-p"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+    </section>
+
+    <script>
+        function openSlideMenu(){
+            document.getElementById('side-menu').style.width
+            ='250px';
+
+            document.getElementById('navbar').style.visibility
+            = 'hidden'; 
+        }
+    
+        function closeSlideMenu(){
+            document.getElementById('side-menu').style.width
+            ='0';  
+
+        }
+     
+    </script>
+</body>
+</html>
